@@ -3,7 +3,6 @@ from flask import Flask, request, jsonify
 import pickle
 import numpy as np
 
-# Za³aduj wytrenowany model
 with open('perceptron_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
